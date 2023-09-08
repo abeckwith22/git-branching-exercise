@@ -1,0 +1,15 @@
+
+What git command creates a branch?
+ - git checkout -b 
+
+What is the difference between a fast-forwalrd and recursive merge?
+ - Fast-forward merge is the basic default merge strategy, git can easily tell what was commited chronologically and if they aren't then recursive merge is necessary. Recursive merge happens when fast-forward won't work it uses an algorithm to merge branches together.
+
+What git command changes to another branch?
+ - git checkout <branch_name>
+
+What git command deletes a branch?
+ - git checkout -D // for a forceful removal
+
+How do merge conflicts happen?
+ - Possible merge conflicts can occur when two people are working on different branches and has different commits to the same file. When merging, git won't be able to tell which one to use and will throw an error and some text into these files that show you what needs fixed.
